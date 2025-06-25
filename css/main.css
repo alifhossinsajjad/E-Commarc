@@ -352,3 +352,11 @@ nav {
         bottom: -2em;
     }
 }
+
+
+footer {
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
