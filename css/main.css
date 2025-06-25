@@ -387,6 +387,12 @@ nav {
 }
 
 
+
+footer {
+    .container {
+        display: flex;
+        justify-content: space-between;
+
 @media only screen and (min-width: 1450px) {
 
     .features-section {
@@ -410,5 +416,6 @@ nav {
             left: 4.5em;
             top: 2em;
         }
+
     }
 }
