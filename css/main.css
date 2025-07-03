@@ -28,7 +28,7 @@ body {
     nav {
         display: none;
     }
-
+    
     .container {
         display: flex;
         place-content: space-between;
@@ -44,9 +44,9 @@ a {
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+   list-style-type: none; 
+   margin: 0;
+   padding: 0;
 }
 
 section {
@@ -165,8 +165,7 @@ label {
     margin-bottom: .5em;
 }
 
-input,
-textarea {
+input, textarea {
     width: 100%;
     padding: .8em;
     margin-bottom: 1em;
@@ -213,7 +212,7 @@ nav {
     }
 
     li {
-
+        
         a {
             color: white;
             text-decoration: none;
@@ -237,8 +236,7 @@ nav {
 
 @media only screen and (min-width: 768px) {
 
-    .mobile-menu,
-    .mobile-menu-exit {
+    .mobile-menu, .mobile-menu-exit {
         display: none;
     }
 
@@ -274,7 +272,6 @@ nav {
         li.current a {
             font-weight: bold;
         }
-
         li.go-premium-cta a {
             color: var(--primary-color);
             border: 3px solid var(--primary-color);
@@ -316,14 +313,13 @@ nav {
     }
 
     .hero-img {
-        width: 35%;
+        width: 30%;
         margin-right: 8em;
     }
 
     .hero-cta {
         display: flex;
     }
-
     .primary-cta {
         margin-right: 1em;
     }
@@ -333,11 +329,11 @@ nav {
         margin-left: 5em;
 
         li {
-            font-size: 1.5em;
+            font-size: 1.4em;
 
-            &:befor {
-                height: 30px;
+            &:before {
                 width: 30px;
+                height: 30px;
             }
         }
     }
@@ -356,7 +352,7 @@ nav {
 
     .testimonials-section ul {
         display: flex;
-
+        
         li {
             margin: 0 1em;
         }
@@ -370,7 +366,6 @@ nav {
         }
     }
 
-
     .contact-right {
         position: absolute;
         right: 0;
@@ -378,23 +373,13 @@ nav {
         width: 45%;
         height: 100%;
 
-
         iframe {
             height: 100%;
         }
     }
-
 }
 
-
-<<<<<<< HEAD
-footer {
-    .container {
-        display: flex;
-        justify-content: space-between;
-=======
 @media only screen and (min-width: 1450px) {
-
     .features-section {
 
         &:before {
@@ -416,6 +401,31 @@ footer {
             left: 4.5em;
             top: 2em;
         }
->>>>>>> main
     }
+}
+
+
+footer {
+    background: #20272E;
+    color: white;
+    padding: 2em 1em;
+    text-align: center;
+
+    p {
+        margin: 0;
+        font-size: 1.2em;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+html {
+  scroll-behavior: smooth;
 }
