@@ -379,6 +379,16 @@ nav {
     }
 }
 
+<<<<<<< HEAD
+=======
+
+
+footer {
+    .container {
+        display: flex;
+        justify-content: space-between;
+
+>>>>>>> cf1ec24c8343717a378f88f005c8e19071040871
 @media only screen and (min-width: 1450px) {
     .features-section {
 
@@ -401,6 +411,10 @@ nav {
             left: 4.5em;
             top: 2em;
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> cf1ec24c8343717a378f88f005c8e19071040871
     }
 }
 
